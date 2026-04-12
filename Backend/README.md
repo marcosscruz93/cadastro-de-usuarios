@@ -68,7 +68,7 @@ Ao subir pela primeira vez, o `AdminSeeder` cria automaticamente um administrado
 | Método | Rota | Acesso | Descrição |
 |--------|------|--------|-----------|
 | POST | `/auth/login` | Público | Login com CPF e senha |
-| POST | `/usuarios/registrar` | Público | Cadastro de novo usuário |
+| POST | `/usuarios/registrar` | Público | Cadastro de novo usuário com seus endereços|
 
 ### Usuários
 | Método | Rota | Acesso | Descrição |
