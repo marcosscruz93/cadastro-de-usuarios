@@ -1,0 +1,237 @@
+.container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.card {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.titulo {
+    font-size: 20px;
+    font-weight: 500;
+    color: #333;
+    margin: 0;
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.avatar {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: #3b82f6;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: 500;
+    flex-shrink: 0;
+}
+
+.nomeDestaque {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+    margin: 0 0 0.25rem 0;
+}
+
+.badge {
+    font-size: 12px;
+    background-color: #ebf5ff;
+    color: #3b82f6;
+    padding: 0.2rem 0.6rem;
+    border-radius: 999px;
+}
+
+.secao {
+    margin-bottom: 1.5rem;
+}
+
+.secaoTitulo {
+    font-size: 15px;
+    font-weight: 500;
+    color: #555;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.campoLabel {
+    font-size: 12px;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.campoValor {
+    font-size: 15px;
+    color: #333;
+}
+
+.enderecoCard {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    padding: 0.75rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    margin-bottom: 0.75rem;
+}
+
+.enderecoHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.enderecoRua {
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+}
+
+.badgePadrao {
+    font-size: 11px;
+    background-color: #f0fff4;
+    color: #38a169;
+    padding: 0.2rem 0.6rem;
+    border-radius: 999px;
+    border: 1px solid #38a169;
+}
+
+.enderecoDetalhe {
+    font-size: 13px;
+    color: #555;
+}
+
+.enderecoCep {
+    font-size: 12px;
+    color: #888;
+}
+
+.semEnderecos {
+    font-size: 14px;
+    color: #888;
+    text-align: center;
+    padding: 1rem;
+}
+
+.acoes {
+    display: flex;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #e2e8f0;
+}
+
+
+.mensagem {
+    text-align: center;
+    color: #888;
+    padding: 2rem;
+}
+
+.erro {
+    text-align: center;
+    color: #e53e3e;
+    padding: 2rem;
+}
+
+.botaoVoltar {
+    background: none;
+    border: none;
+    color: #3b82f6;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 0;
+}
+
+.botaoEditar {
+    flex: 1;
+    padding: 0.75rem;
+    background-color: #fff;
+    color: #38a169;
+    border: 1px solid #38a169;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+}
+.botaoEditar:hover {
+    background-color: #fff5f5;
+}
+
+.botaoEnderecos {
+    flex: 1;
+    padding: 0.75rem;
+    background-color: #3b82f6;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.botaoDeletar {
+    flex: 1;
+    padding: 0.75rem;
+    background-color: #fff;
+    color: #e53e3e;
+    border: 1px solid #e53e3e;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color 0.2s;
+}
+
+.botaoDeletar:hover {
+    background-color: #fff5f5;
+}
+.botaoSair {
+    padding: 0.5rem 1rem;
+    background-color: #fff;
+    color: #e53e3e;
+    border: 1px solid #e53e3e;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s;
+}
+
+.botaoSair:hover {
+    background-color: #fff5f5;
+}

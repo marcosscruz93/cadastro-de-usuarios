@@ -1,0 +1,165 @@
+body{
+    background:linear-gradient(135deg, #005f9e, #00c8a0, #3af2c4);
+    min-height:100vh;
+}
+.container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color:whitesmoke;
+    margin-bottom: 1.5rem;
+    border-bottom:2px solid rgba (0,0,0,0.1);
+    border-radius:7px;
+    transition: opacity 0.6s ease, transform 0.6s ease;
+
+}
+.headerAcoes {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.cardVisivel{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.cardOculto {
+    opacity: 0;
+    transform: translateY(16px);
+}
+
+.titulo {
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0;
+}
+.bemVindo {
+    font-size: 14px;
+}
+.tabela {
+    border: 1px solid wheat;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color:whitesmoke;
+    margin-top:10%;
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.tabelaHeader {
+    display: flex;
+    background-color: wheat;
+    padding: 0.75rem 1rem;
+    font-weight: 500;
+    font-size: 14px;
+    color: #555;
+    border-bottom: 1px solid #e2e8f0;
+}
+.tabelaLinha {
+    display: flex;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid #e2e8f0;
+    font-size: 14px;
+    color: #333;
+}
+.colNome {
+    flex: 3;
+}
+.colCpf {
+    flex: 2;
+}
+.colNasc {
+    flex: 2;
+}
+.colAcoes {
+    flex: 3;
+    display: flex;
+    gap: 0.5rem;
+}
+.mensagem {
+    text-align: center;
+    color: #888;
+    padding: 2rem;
+}
+.erro {
+    text-align: center;
+    color: #e53e3e;
+    padding: 2rem;
+}
+.botaoNovo {
+    padding: 0.5rem 1rem;
+    background-color: #3b82f6;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+}
+.botaoSair {
+    padding: 0.5rem 1rem;
+    background-color: #fff;
+    color: #e53e3e;
+    border: 1px solid #e53e3e;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.botaoVer {
+    padding: 0.3rem 0.75rem;
+    background-color: #fff;
+    color: #3b82f6;
+    border: 1px solid #3b82f6;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 13px;
+}
+.botaoVer:hover{
+    background-color: #e0edf9; 
+}
+
+.botaoEditar{
+    padding: 0.3rem 0.75rem;
+    background-color: #fff;
+    color: #09552c;
+    border: 1px solid #38a169;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 13px;
+}
+.botaoEditar:hover{
+    background-color: #e0edf9; 
+}
+
+.botaoEnderecos {
+    padding: 0.3rem 0.75rem;
+    background-color: #fff;
+    color: #805ad5;
+    border: 1px solid #805ad5;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.botaoEnderecos:hover{
+    background-color: #e0edf9; 
+}
+
+.botaoExcluir {
+    padding: 0.3rem 0.75rem;
+    background-color: #fff;
+    color: #e53e3e;
+    border: 1px solid #e53e3e;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 13px;
+}
+.botaoExcluir:hover{
+    background-color: #e0edf9; 
+}

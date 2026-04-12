@@ -1,0 +1,16 @@
+gnuc/api/repository/UsuarioRepository.class
+gnuc/api/entity/UsuarioEntity.class
+gnuc/api/entity/UsuarioDetails/UsuarioDetailsAutenticacaoService.class
+gnuc/api/controller/UsuarioController.class
+gnuc/api/dto/EnderecoDto.class
+gnuc/api/dto/UsuarioDto.class
+gnuc/api/entity/EnderecoEntity.class
+gnuc/api/ApiApplication.class
+gnuc/api/entity/UsuarioRole.class
+gnuc/api/repository/EnderecoRepository.class
+gnuc/api/controller/EnderecoController.class
+gnuc/api/controller/HelloController.class
+gnuc/api/entity/UsuarioDetails/UsuarioDetailsImpl.class
+gnuc/api/entity/UsuarioDetails/Seguranca/SecurityConfig.class
+gnuc/api/service/EnderecoService.class
+gnuc/api/service/UsuarioService.class

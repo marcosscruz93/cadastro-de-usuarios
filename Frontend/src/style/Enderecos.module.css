@@ -1,0 +1,273 @@
+.container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color:whitesmoke;
+    margin-bottom: 1.5rem;
+    border-bottom:2px solid rgba (0,0,0,0.1);
+    border-radius:5px;
+}
+
+.titulo {
+    font-size: 20px;
+    font-weight: 500;
+    color: #333;
+    margin: 0;
+    text-align:center;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.cardHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 0.5rem;
+}
+
+.cardTitulo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.rua {
+    font-size: 15px;
+    font-weight: 500;
+    color: #333;
+}
+
+.badgePadrao {
+    font-size: 11px;
+    background-color: #f0fff4;
+    color: #38a169;
+    padding: 0.2rem 0.6rem;
+    border-radius: 999px;
+    border: 1px solid #38a169;
+}
+
+.detalhe {
+    font-size: 13px;
+    color: #555;
+    margin: 0 0 0.25rem 0;
+}
+
+.cep {
+    font-size: 12px;
+    color: #888;
+    margin: 0 0 0.75rem 0;
+}
+
+.cardAcoes {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    padding: 1rem;
+}
+
+.modal {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 2rem;
+    width: 100%;
+    max-width: 480px;
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+.modalTitulo {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.linha {
+    display: flex;
+    gap: 0.75rem;
+}
+
+.label {
+    font-size: 14px;
+    color: #555;
+    font-weight: 500;
+}
+
+.input {
+    padding: 0.6rem 0.8rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.inputPreenchido {
+    padding: 0.6rem 0.8rem;
+    border-radius: 6px;
+    border: 1px solid #e2e8f0;
+    font-size: 15px;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #f7fafc;
+    color: #555;
+}
+
+.cepWrapper {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.buscandoCep {
+    font-size: 13px;
+    color: #3b82f6;
+    white-space: nowrap;
+}
+
+.checkboxCampo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.checkboxLabel {
+    font-size: 14px;
+    color: #555;
+    cursor: pointer;
+}
+
+.acoes {
+    display: flex;
+    gap: 0.75rem;
+    margin-top: 0.5rem;
+}
+
+.mensagem {
+    text-align: left;
+    color: #000000;
+    padding: 2rem 0 2rem 10rem;
+    margin:0 auto;
+}
+
+.erro {
+    text-align: center;
+    color: #e53e3e;
+    padding: 2rem;
+}
+
+.botaoVoltar {
+    padding: 0.5rem 1rem;
+    background-color: #6ebb9b;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.botaoNovo {
+    padding: 0.5rem 1rem;
+    background-color: #3b82f6;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.botaoPadrao {
+    padding: 0.3rem 0.75rem;
+    background-color: #fff;
+    color: #38a169;
+    border: 1px solid #38a169;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.botaoEditar {
+    padding: 0.3rem 0.75rem;
+    background-color: #fff;
+    color: #3b82f6;
+    border: 1px solid #3b82f6;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.botaoExcluir {
+    padding: 0.3rem 0.75rem;
+    background-color: #fff;
+    color: #e53e3e;
+    border: 1px solid #e53e3e;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.botaoCancelar {
+    flex: 1;
+    padding: 0.75rem;
+    background-color: #fff;
+    color: #555;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.botaoSalvar {
+    flex: 2;
+    padding: 0.75rem;
+    background-color: #3b82f6;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+}
