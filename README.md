@@ -52,8 +52,8 @@ Aplicação web fullstack para cadastro e gerenciamento de usuários e seus ende
 
 Consulte os READMEs individuais de cada parte:
 
-- [Backend](./backend/README.md)
-- [Frontend](./frontend/README.md)
+- [Backend](./Backend/README.md)
+- [Frontend](./Frontend/README.md)
 
 ---
 
