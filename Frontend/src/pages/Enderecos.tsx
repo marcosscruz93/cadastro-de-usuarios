@@ -117,7 +117,7 @@ export default function Enderecos() {
             setForm(formVazio);
         }
 
-        async function tratarEvento(evento: React.FormEvent<HTMLFormElement>){
+        async function tratarEvento(evento: React.SubmitEvent){
             evento.preventDefault();
             setSalvando(true);
 
@@ -251,7 +251,8 @@ export default function Enderecos() {
                             {enderecoEditando ? 'Editar endereço' : 'Novo endereço'}
                         </h3>
 
-                        <form onSubmit={tratarEvento} className={styles.form}>
+                        <form onSubmit={tratarEvento}
+                        className={styles.form}>
                             <div 
                             className={styles.campo}>
                                 <label 
