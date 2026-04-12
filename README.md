@@ -8,7 +8,7 @@ Aplicação web fullstack para cadastro e gerenciamento de usuários e seus ende
 
 **Backend**
 - Java 17
-- Spring Boot 3
+- Spring Boot 4.0.5
 - Spring Security + JWT
 - Spring Data JPA
 - OpenFeign
