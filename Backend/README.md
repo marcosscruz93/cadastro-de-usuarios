@@ -7,7 +7,7 @@ API REST desenvolvida com Java 17 e Spring Boot 3.
 ## Tecnologias
 
 - Java 17
-- Spring Boot 3
+- Spring Boot 4.0.5
 - Spring Security + JWT
 - Spring Data JPA
 - OpenFeign
