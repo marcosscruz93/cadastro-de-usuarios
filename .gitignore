@@ -1,0 +1,21 @@
+# Node / Frontend
+node_modules/
+node_modules
+dist/
+.env
+.env.*
+! .env.example
+
+# Maven / Backend
+target/
+target
+*.class
+.settings/
+.classpath
+.project
+
+# IDEs e Sistema
+.idea/
+idea
+.vscode/
+.DS_Store
