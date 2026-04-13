@@ -32,7 +32,6 @@ Aplicação web fullstack para cadastro e gerenciamento de usuários e seus ende
 - CRUD completo de usuários
 - CRUD completo de endereços
 - Busca automática de endereço por CEP via ViaCEP
-- Cache de CEP no banco para evitar consultas repetidas à API externa
 - Definição de endereço principal
 - Promoção automática de endereço principal ao excluir o atual
 - Controle de acesso garantido pelo backend em todas as operações
